@@ -1,0 +1,41 @@
+h1{
+    text-align:center;
+    text-decoration:underline;
+    letter-spacing:5px;
+    font-size:15px;
+    font-family:Avant Garde,Didot,sans-serif;
+
+}
+
+h2{
+    text-align:right;
+    font-weight:200;
+    text-decoration:line-through;
+}
+
+h3{
+    text-align:start;
+    font-weight:100;
+    text-decoration:wavy overline;
+    font-family:arial;
+    /* text-decoration-color:brown underline; */
+}
+
+div{
+    text-align:end;
+    font-weight:normal;
+    text-decoration:overline;
+    font-family:fantasy;
+}
+
+p{
+    text-align:justify;
+    font-weight:bold;
+    text-decoration:dotted;
+    line-height:1.5;
+    font-size:15px;
+}
+
+a{
+    text-decoration:none;
+}
