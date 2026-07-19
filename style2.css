@@ -1,0 +1,122 @@
+*{
+    background-color:bisque;
+    font-family:Lucida Sans Unicode;
+}
+h1,h3{
+    color:#b92b27;
+}
+
+#login{
+    background-color:white;
+}
+#signup{
+    background-color:azure;
+    color:violet;
+}
+
+.upvote{
+    background-color:aquamarine;
+    color:rgb(0,0,0);
+}
+
+.post a{
+    color:brown;
+    background-color:yellowgreen;
+}
+
+/* a{
+    color:lightskyblue;
+    background-color:black;
+} */
+
+nav ul li{
+    color:hotpink;
+}
+
+nav ul li a{
+    color:#8a2be2;
+}
+
+p + h3{
+    text-decoration:underline;
+}
+
+
+.upvote + button{
+    background-color:cornflowerblue;   
+}
+
+div > input{
+    background-color:honeydew;
+    color:black;
+}
+
+input[type="text"]{
+    color:#b92b27;
+}
+
+input[type="password"]{
+    color:blueviolet;
+}
+
+input[type]{
+    background-color:aliceblue;
+}
+
+ div[id="myId"] p{
+      color:green;
+} 
+
+        /* or */
+
+#myId p{
+    color:red;
+}
+
+button:hover{
+    background-color:black;
+    color:white;
+}
+
+h3:hover{
+    text-decoration:overline;
+}
+
+button:active{
+    background-color:hotpink;
+    color:black;
+}
+
+p:active{
+    font-weight:bold;
+    color:green;
+}
+
+input[type="radio"]:checked+label{
+    font-weight:bold;
+    color:green;
+}
+
+div:nth-of-type(3n){
+    background-color:darkseagreen;
+}
+
+p::first-line{
+    color:hotpink;
+}
+
+h1::first-letter{
+    color:blue;
+}
+
+p::selection{
+    background-color:aquamarine;
+}
+
+h3{
+    background-color:#b92b27;
+}
+
+h3{
+    background-color: azure !important;
+}
