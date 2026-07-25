@@ -1,0 +1,14 @@
+div:hover{
+    border:15px bold black;
+    height:100px;
+    width:100px;
+    background-color:rgba(255, 0, 0, 0.4);
+    opacity:1;
+}
+
+#opacity{
+    background-color:aquamarine;
+    margin-top:15px;
+    opacity:0.5;
+}
+
