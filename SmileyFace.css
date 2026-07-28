@@ -1,0 +1,50 @@
+/* div{
+    background-color:aqua;
+    height:200px;
+    width:200px;
+} */
+
+.face{
+    background-color:darkgoldenrod;
+    height:200px;
+    width:200px;
+    position:relative;
+    top:200px;
+    left:600px;
+    border-radius:50%;
+    
+
+}
+
+.Reye , .Leye{
+    /* border-radius:50%; */
+    height:35px;
+    width:35px;
+    background-color:black;
+    margin:10px;
+    display:inline-block;
+    top:45px;
+    left:30px;
+    position:absolute;
+    border-radius:50%;
+    background-color:brown;
+}
+
+.Reye{
+    left:120px;
+      /* right:35px; */
+      position:absolute;
+
+}
+
+.mouth{
+    background-color:brown;
+    height:50px;
+    width:120px;
+    border-radius:0 0 45px 45px;
+    top:130px;
+    left:40px;
+    position:absolute;
+}
+
+
