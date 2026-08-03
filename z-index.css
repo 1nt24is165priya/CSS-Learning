@@ -1,0 +1,37 @@
+ /* #one{
+    background-color:pink;
+    height:100px;
+    width:100px;
+ }
+
+ #two{
+    background-color:yellow;
+    height:100px;
+    width:100px;
+ }
+
+ #three{
+    background-color:blueviolet;
+    height:100px;
+    width:100px;
+ } */
+
+ .box{
+   background-color:pink;
+    height:100px;
+    width:100px;
+    border:2px solid black;
+ }
+
+ .one{
+   background-color:aquamarine;
+   position:relative;
+   z-index:-2;
+ }
+
+ .two{
+   background-color:darkgoldenrod;
+   position:relative;
+   bottom:50px;
+   z-index:0;
+ }
