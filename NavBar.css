@@ -1,0 +1,25 @@
+#container{
+    height:50px;
+    width:900px;
+    background-color:darksalmon;
+    border:5px solid lightblue;
+    border-radius:10px;
+    display:flex;
+    flex-direction:row;
+    /* justify-content:space; */
+    /* align-items:center; */
+    
+    
+}
+
+.c{
+    height:50px;
+    width:80px;
+    color:black;
+    font-size:24px;
+    text-align:center;
+    
+    align-content:space-around;
+
+
+}
